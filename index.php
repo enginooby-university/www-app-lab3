@@ -56,7 +56,7 @@
 
         <h4 id="accordion">accordion</h4>
         <p>4. accordion (set of elements that can be rolled up and unfolded by clicking on them)</p>
-
+        <?php include "sections/accordion.php";?>
         <div class="space"></div>
 
         <h4 id="form">form</h4>

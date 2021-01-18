@@ -10,7 +10,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="stylesheet" href="style.css" integrity="hash pliku CSS" crossorigin="anonymous">
+    <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css?<?php echo time(); ?>">
 
     <title>Laboratory 3</title>
 </head>
@@ -45,66 +46,20 @@
 
         <h4 id="breadcrumb">breadcrumb</h4>
         <p>2. breadcrumb navigation</p>
-        <nav>
-            <ol class="breadcrumb">
-                <li class="breadcrumb-item"><a href="#navbar">Navbar</a></li>
-                <li class="breadcrumb-item active"><a href="#breadcrumb">Breadcrumb</a></li>
-                <li class="breadcrumb-item"><a href="#carousel">Carousel</a></li>
-                <li class="breadcrumb-item"><a href="#accordion">Accordion</a></li>
-                <li class="breadcrumb-item"><a href="#form">Form</a></li>
-                <li class="breadcrumb-item"><a href="#modal">Modal</a></li>
-                <li class="breadcrumb-item"><a href="#tooltip">Tooltip</a></li>
-            </ol>
-        </nav>
+        <?php include "sections/breadcrumb.php";?>
         <div class="space"></div>
 
         <h4 id="carousel">carousel</h4>
         <p>3. carousel element with controls, indicators and captions:</p>
-        <div id="carouselIndicators" class="carousel slide" data-ride="carousel">
-            <ol class="carousel-indicators">
-                <li data-target="#carouselIndicators" data-slide-to="0" class="active"></li>
-                <li data-target="#carouselIndicators" data-slide-to="1"></li>
-                <li data-target="#carouselIndicators" data-slide-to="2"></li>
-            </ol>
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-100" src="resources/blue.png" alt="Blue">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Blue</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="resources/green.png" alt="Green">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Green</h5>
-                    </div>
-                </div>
-                <div class="carousel-item">
-                    <img class="d-block w-100" src="resources/yellow.png" alt="Yellow">
-                    <div class="carousel-caption d-none d-md-block">
-                        <h5>Yellow</h5>
-                    </div>
-                </div>
-            </div>
-            <a class="carousel-control-prev" href="#carouselIndicators" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselIndicators" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
-        </div>
+        <?php include "sections/carousel.php";?>
         <div class="space"></div>
 
         <h4 id="accordion">accordion</h4>
         <p>4. accordion (set of elements that can be rolled up and unfolded by clicking on them)</p>
+
         <div class="space"></div>
 
         <h4 id="form">form</h4>
-        <p>5. a form in which page visitor will be able to enter their name, surname, e-mail, telephone number,
-            street, house number / flat number, zip code, city and province and click on the "Submit" or "Reset"
-            button</p>
         <div class="space"></div>
 
         <h4 id="modal">modal</h4>

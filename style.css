@@ -1,3 +1,7 @@
 .space {
     height: 10vh;
 }
+
+.breadcrumb-item + .breadcrumb-item::before {
+    content: "|";
+}

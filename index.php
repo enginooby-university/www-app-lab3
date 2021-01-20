@@ -60,6 +60,10 @@
         <div class="space"></div>
 
         <h4 id="form">form</h4>
+        <p>5. a form in which page visitor will be able to enter their name, surname, e-mail, telephone number,
+            street, house number / flat number, zip code, city and province and click on the "Submit" or "Reset"
+            button</p>
+        <?php include "sections/form.php";?>
         <div class="space"></div>
 
         <h4 id="modal">modal</h4>

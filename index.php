@@ -40,6 +40,7 @@
 
     <main class="container">
         <div class="space"></div>
+
         <h4 id="navbar">navbar</h4>
         <p>1. navbar navigation element with scrollspy element</p>
         <div class="space"></div>
@@ -69,6 +70,7 @@
         <h4 id="modal">modal</h4>
         <p>6. element, clicking on which will display a modal window that takes up the entire available width
             and height of the display device</p>
+        <?php include "sections/modal.php";?>
         <div class="space"></div>
 
         <h4 id="tooltip">tooltip</h4>

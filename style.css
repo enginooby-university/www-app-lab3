@@ -5,3 +5,13 @@
 .breadcrumb-item + .breadcrumb-item::before {
     content: "|";
 }
+
+.modal-full {
+    min-width: 101%;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-full .modal-content {
+    min-height: 100vh;
+}

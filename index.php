@@ -21,7 +21,7 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="100">
 
     <nav class="navbar navbar-expand-md fixed-top navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Laboratory 3</a>
+        <b><a class="navbar-brand" href="#">Laboratory 3</a></b>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar-items">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -77,6 +77,10 @@
         <p>7. tooltips elements that provide tips (hints) when the mouse cursor is placed over a specific
             interactive element or text fragment</p>
         <?php include "sections/tooltip.php";?>
+        <div class="space"></div>
+
+        <h4>breakpoints test</h4>
+        <?php include "sections/breakpoints-test.php";?>
         <div class="space"></div>
     </main>
 
